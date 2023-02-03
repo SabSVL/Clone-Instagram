@@ -1,0 +1,19 @@
+@media screen and (max-width:350px){
+    .container2,article{
+        background-color: rgb(247, 247, 247);
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        max-width: 300px;
+    }
+    #app{
+        display: block;
+        float: none;
+    }
+}
+@media screen and (max-width:900px){
+    #phone, #phone-img{
+        display: none;
+    }
+}
